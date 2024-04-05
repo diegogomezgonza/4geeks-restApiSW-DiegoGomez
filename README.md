@@ -1,9 +1,9 @@
-#Proyecto de Consumo de API de SWAPI - Star Wars
+# Proyecto de Consumo de API de SWAPI - Star Wars
  
-##Este proyecto es una aplicación web que consume la API de SWAPI (Star Wars) para mostrar información sobre los planetas, personajes y vehículos de este universo ficticio. Está desarrollado utilizando las siguientes tecnologías:
+## Este proyecto es una aplicación web que consume la API de SWAPI (Star Wars) para mostrar información sobre los planetas, personajes y vehículos de este universo ficticio. Está desarrollado utilizando las siguientes tecnologías:
 
-#Tecnologías Utilizadas
-##Flask
+# Tecnologías Utilizadas
+## Flask
 
 Flask es un microframework de Python que facilita la creación de aplicaciones web. En este proyecto, Flask se utiliza para desarrollar la API que interactúa con la API de SWAPI y proporciona los datos necesarios para la interfaz de usuario.
 
