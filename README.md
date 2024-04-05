@@ -1,66 +1,25 @@
-<a href="https://www.breatheco.de"><img height="280" align="right" src="https://github.com/4GeeksAcademy/flask-rest-hello/blob/main/docs/assets/badge.png?raw=true"></a>
+#Proyecto de Consumo de API de SWAPI - Star Wars
+ 
+##Este proyecto es una aplicación web que consume la API de SWAPI (Star Wars) para mostrar información sobre los planetas, personajes y vehículos de este universo ficticio. Está desarrollado utilizando las siguientes tecnologías:
 
-# Flask Boilerplate for Junior Developers
+#Tecnologías Utilizadas
+##Flask
 
-Create flask API's in minutes, [📹 watch the video tutorial](https://youtu.be/ORxQ-K3BzQA).
+Flask es un microframework de Python que facilita la creación de aplicaciones web. En este proyecto, Flask se utiliza para desarrollar la API que interactúa con la API de SWAPI y proporciona los datos necesarios para la interfaz de usuario.
 
-- [Extensive documentation here](https://start.4geeksacademy.com).
-- Integrated with Pipenv for package managing.
-- Fast deloyment to render.com or heroku with `$ pipenv run deploy`.
-- Use of `.env` file.
-- SQLAlchemy integration for database abstraction.
+Python
 
-## 1) Installation
+Python es un lenguaje de programación versátil y poderoso ampliamente utilizado en el desarrollo de aplicaciones web, entre otros ámbitos. En este proyecto, Python se emplea tanto para desarrollar la API con Flask como para realizar la lógica de backend necesaria para el consumo de la API de SWAPI.
 
-This template installs itself in a few seconds if you open it for free with Codespaces (recommended) or Gitpod.
-Skip this installation steps and jump to step 2 if you decide to use any of those services.
+React
 
-> Important: The boiplerplate is made for python 3.10 but you can change the `python_version` on the Pipfile.
+React es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y dinámicas. En este proyecto, React se utiliza en el frontend para crear una interfaz amigable y receptiva que muestra la información obtenida de la API de SWAPI de manera intuitiva para el usuario.
 
-The following steps are automatically runned withing gitpod, if you are doing a local installation you have to do them manually:
+Uso de API
 
-```sh
-pipenv install;
-psql -U root -c 'CREATE DATABASE example;'
-pipenv run init;
-pipenv run migrate;
-pipenv run upgrade;
-```
+El proyecto hace uso intensivo de APIs tanto para obtener datos como para proporcionar servicios. Se consume la API de SWAPI para obtener información sobre los planetas, personajes y vehículos de Star Wars. Además, se desarrolla una API propia con Flask para gestionar las solicitudes del frontend y obtener los datos necesarios de SWAPI.
 
-> Note: Codespaces users can connect to psql by typing: `psql -h localhost -U gitpod example`
-
-## 2) How to Start coding
-
-There is an example API working with an example database. All your application code should be written inside the `./src/` folder.
-
-- src/main.py (it's where your endpoints should be coded)
-- src/models.py (your database tables and serialization logic)
-- src/utils.py (some reusable classes and functions)
-- src/admin.py (add your models to the admin and manage your data easily)
-
-For a more detailed explanation, look for the tutorial inside the `docs` folder.
-
-## Remember to migrate every time you change your models
-
-You have to migrate and upgrade the migrations for every update you make to your models:
-
-```bash
-$ pipenv run migrate # (to make the migrations)
-$ pipenv run upgrade  # (to update your databse with the migrations)
-```
-
-## Check your API live
-
-1. Once you run the `pipenv run start` command your API will start running live and you can open it by clicking in the "ports" tab and then clicking "open browser".
-
-> ✋ If you are working on a coding cloud like [Codespaces](https://docs.github.com/en/codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace#sharing-a-port) or [Gitpod](https://www.gitpod.io/docs/configure/workspaces/ports#configure-port-visibility) make sure that your forwared port is public.
-
-## Publish/Deploy your website!
-
-This boilerplate it's 100% read to deploy with Render.com and Herkou in a matter of minutes. Please read the [official documentation about it](https://start.4geeksacademy.com/deploy).
-
-### Contributors
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+Funcionalidades Principales
+Visualización de Información: Los usuarios pueden explorar información detallada sobre planetas, personajes y vehículos de Star Wars.
+Interfaz Intuitiva: La interfaz de usuario desarrollada con React ofrece una experiencia amigable y fácil de usar.
+Actualización Dinámica: La información se actualiza dinámicamente en tiempo real, proporcionando una experiencia fluida al usuario.
